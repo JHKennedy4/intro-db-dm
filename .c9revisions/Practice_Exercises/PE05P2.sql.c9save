@@ -1,0 +1,7 @@
+{"ts":1355242718471,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1355242796943,"patch":[[{"diffs":[[1,"ALTER TABLE Automobile ADD COLUMN VIN varchar(11);"]],"start1":0,"start2":0,"length1":0,"length2":50}]],"length":50,"saved":false}
+{"ts":1355242948488,"patch":[[{"diffs":[[0,"char(11)"],[1," FIRST"],[0,";"]],"start1":41,"start2":41,"length1":9,"length2":15}]],"length":56,"saved":false}
+{"ts":1355242952633,"patch":[[{"diffs":[[0,") FIRST;"],[1,"\n\n"]],"start1":48,"start2":48,"length1":8,"length2":10}]],"length":58,"saved":false}
+{"ts":1355243194487,"patch":[[{"diffs":[[0,"FIRST;\n\n"],[1,"UPDATE Automobile SET VIN = '123AB456Z78' WHERE model = 'Mustang';\nUPDATE Automobile SET VIN = '4543FG9876H' WHERE model = 'Prius';\nUPDATE Automobile SET VIN = '8975US8751L' WHERE model = 'Camry';\nUPDATE Automobile SET VIN = '12H68DE709B' WHERE model = '1500';\n"]],"start1":50,"start2":50,"length1":8,"length2":269}]],"length":319,"saved":false}
+{"ts":1355243406603,"patch":[[{"diffs":[[0,"'1500';\n"],[1,"\nSELECT * FROM Automobile;\n\n\n\nDESC Automobile;\n\n"]],"start1":311,"start2":311,"length1":8,"length2":56}]],"length":367,"saved":false}
+{"ts":1355243582404,"patch":[[{"diffs":[[0,"obile;\n\n"],[1,"ALTER TABLE Automobile ADD PRIMARY KEY (VIN);"],[0,"\n\nDESC A"]],"start1":339,"start2":339,"length1":16,"length2":61}]],"length":412,"saved":false}
